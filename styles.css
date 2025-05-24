@@ -1,0 +1,212 @@
+@media (max-width: 768px) {
+    nav {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .links {
+        display: flex;
+        flex-direction: column;
+    }
+
+    h1 {
+        font-size: 24px;
+    }
+
+    .container {
+        width: 90%;
+        height: auto;
+    }
+
+    .image-gallery img {
+        width: 100%;
+    }
+
+    .button {
+        width: 100%;
+        font-size: 14px;
+    }
+}
+
+@media (max-width: 480px) {
+    h1 {
+        font-size: 20px;
+        text-align: center;
+    }
+
+    .intro {
+        text-align: center;
+    }
+
+    .image-gallery {
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 10px;
+    }
+
+    .image-gallery img {
+        width: 100%;
+    }
+
+    .button {
+        width: 80%;
+        font-size: 12px;
+    }
+
+    footer {
+        text-align: center;
+    }
+}
+
+@media (min-width: 1024px) {
+    body {
+        max-width: 1200px;
+        margin: auto;
+    }
+
+    .container {
+        width: 80%;
+        height: auto;
+    }
+
+    .image-gallery {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 20px;
+    }
+}
+
+header {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+body {
+    background-color: #FFF;
+    font-family: "Apple Color Emoji", serif;
+    color: #000;
+    text-align: center;
+}
+
+.sup {
+    color: #000;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 20px;
+    font-size: xx-large;
+    font-style: bold;
+    font-weight: 300px;
+    font-family: "Special Gothic Expanded One", sans-serif;
+}
+
+.links {
+    display: flex;
+    justify-content: space-between;
+    margin-right: 20px;
+    gap: 30px;
+    padding-top: 20px;
+    font-size: small;
+    font-family: default;
+}
+
+a {
+    text-decoration: none;
+    color: #000;
+}
+
+h1 {
+    color: #000;
+    font-family: "Special Gothic Expanded One", sans-serif;
+    font-weight: 1000px;
+    font-size: 1000%;
+    font-style: normal;
+    padding-top: 0.5px;
+}
+
+.container {
+    border-radius: 10px;
+    display: block;
+    margin: auto;
+    width: 90%;
+}
+
+img {
+    border-radius: 20px;
+    display: block;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    margin: auto;
+}
+
+.image-gallery {
+    display: flex;
+    overflow-x: auto;
+    scroll-behavior: smooth;
+    scrollbar-color: #000;
+    gap: 10px;
+    padding: 10px;
+    margin: auto;
+    overflow: hidden;
+    position: relative;
+    white-space: nowrap;
+}
+
+.image-gallery img {
+    width: 200px;
+    height: 100%;
+    border-radius: 8px;
+}
+
+.intro p {
+  font-family: "Winky Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400px;
+  font-size: 40px;
+  font-style: bold;
+}
+
+.intro h3 {
+    font-size: 15px;
+    padding-top: 100px;
+    color: #555;
+}
+
+.main h2 {
+    font-size: 300%;
+    font-weight: 400px;
+    font-style: bold;
+}
+
+.main p {
+    font-family: "Winky Sans", sans-serif;
+    color: #333;
+    font-size: medium;
+    font-weight: 200px;
+    font-style: normal;
+}
+
+.button {
+    background-color: rgb(255, 226, 3);
+    color: #000;
+    padding: 10px;
+    font-family: "Apple Color Emoji", sans-serif;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.footer {
+    background-image: url('footer_flower.avif');
+    background-size: cover;
+    bottom: 0;
+    background-position: center;
+    border-radius: 30px;
+    padding: 200px;
+    position: relative;
+    padding-top: 20px;
+}
+
